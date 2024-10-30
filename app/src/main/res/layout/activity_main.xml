@@ -10,6 +10,7 @@
     android:layout_marginLeft="25dp"
     android:layout_marginRight="25dp"
     android:layout_marginBottom="25dp"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <!-- Logo Aplikasi -->
@@ -17,9 +18,20 @@
         android:id="@+id/logo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/ic_launcher_foreground"
+        android:src="@drawable/orderfood_logo"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="32dp"/>
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvRestaurantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makan Bang!"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="25dp"/>
 
     <!-- Username Field -->
     <EditText
@@ -28,6 +40,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/hint_username"
         android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="15dp"
         android:padding="12dp"
         android:layout_marginBottom="16dp"
         android:inputType="text"/>
@@ -39,6 +52,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/hint_password"
         android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="15dp"
         android:padding="12dp"
         android:layout_marginBottom="16dp"
         android:inputType="textPassword"/>
@@ -50,8 +64,10 @@
         android:layout_height="wrap_content"
         android:text="@string/login"
         android:layout_gravity="center_horizontal"
-        android:textColor="@android:color/white"
-        android:layout_marginBottom="16dp"/>
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:paddingTop="15dp"
+        android:backgroundTint="@color/white"/>
 
     <!-- Register Link -->
     <TextView
