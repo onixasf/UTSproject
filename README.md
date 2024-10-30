@@ -4,6 +4,9 @@
 <p>Nama : Onixa Shafa Putri Wibowo</p>
 <p>Kelas : H</p>
 <p>Mata Kuliah : Praktikum Pengembangan Aplikasi Mobile</p>
+<p>Username: Onixa</p>
+<p>Password: admin1234</p>
+<p>Hanya untuk pengguna dark mode, soalnya saya gatau cara setting untuk pengguna light/dark mode di android studionya😭🙏</p>
 
 Berikut ini adalah tampilan dari tugasnya:
 <p>
